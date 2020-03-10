@@ -10,3 +10,6 @@
 
 # production
 /build
+
+.browserslistrc	
+yarn-error.log*
