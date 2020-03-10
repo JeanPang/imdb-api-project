@@ -194,9 +194,6 @@ export default {
 .v-pagination__item {
   outline: none !important;
 }
-/* .theme--light.v-pagination .v-pagination__item {
-  background: #ffe3ed !important;
-} */
 </style>
 <style>
   .multiselect {
@@ -224,7 +221,6 @@ export default {
     padding-left: 0px;
   }
   .multiselect__element span {
-    /* text-align: center; */
     padding-left: 10px;
     padding-right: 10px;
   }
