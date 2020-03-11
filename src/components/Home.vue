@@ -47,7 +47,7 @@
           class="poster-card"
         >
           <router-link :to="{ name: 'movies', params: {id: movie.id } }" class="routerlink">
-            <div class="hover-style">
+            <!-- <div class="hover-style"> -->
               <div
                 v-if="movie.poster_path !== null"
                 :class="(randomIndex.includes(index))
@@ -62,7 +62,7 @@
                   alt="..."
                 >
               </div>
-            </div>
+            <!-- </div> -->
             <div
               v-if="movie.poster_path === null"
               :class="(randomIndex.includes(index))
@@ -240,8 +240,11 @@ export default {
     justify-content: center;
   }
   .container {
-    width: 1000px;
-    padding: 40px 0px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    /* margin-left: 30px; */
   }
   .nav-title {
     font-Weight: 600;
@@ -252,11 +255,15 @@ export default {
     font-family: Arial, sans-serif;
   }
   .search-row {
-    padding: 10px 0px;
+    margin: 30px 0px 20px;
+    margin-left: 30px;
+    padding-left: 6px;
+    width: 1000px;
   }
   .search-element {
     padding-right: 30px;
     display: inline-block;
+    margin: 8px;
   }
   .select-year {
     width: 100px;
@@ -271,8 +278,10 @@ export default {
     display: flex;
     align-content: flex-start;
     flex-wrap: wrap;
-    padding: 20px 0px;
-    margin-top: 30px;
+    justify-content: center;
+    width: 1000px;
+    margin: 30px 0px;
+    margin-left: 30px;
   }
   .poster-card {
     display: flex;
