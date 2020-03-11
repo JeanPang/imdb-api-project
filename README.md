@@ -1,7 +1,10 @@
 # imdb-api-project
 
 
-### Libraries use in this project:
+### Demo
+https://imdb-api-project.jeanpang.now.sh
+
+### Libraries use in this project
 - Vue.js 2
 - Axios
 - Vuex
