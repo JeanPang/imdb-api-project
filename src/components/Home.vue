@@ -202,7 +202,7 @@ export default {
   .multiselect__option--highlight,
   .multiselect__option--highlight:after,
   .multiselect__option--selected.multiselect__option--highlight {
-    background: pink;
+    background: #C5CAE9;
     content: '';
   }
   .multiselect__option--selected.multiselect__option--highlight:after,
@@ -242,9 +242,6 @@ export default {
   .container {
     display: flex;
     flex-direction: column;
-    /* justify-content: center;
-    align-items: center; */
-    /* margin-left: 30px; */
   }
   .nav-title {
     font-Weight: 600;
