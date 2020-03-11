@@ -242,6 +242,7 @@ export default {
   .container {
     display: flex;
     flex-direction: column;
+    margin: 0px auto;
   }
   .nav-title {
     font-Weight: 600;
@@ -252,10 +253,10 @@ export default {
     font-family: Arial, sans-serif;
   }
   .search-row {
-    margin: 30px 0px 20px;
-    margin-left: 30px;
-    padding-left: 6px;
+    padding: 30px 0px 20px;
+    padding-left: 24px;
     width: 1000px;
+    margin: 0px auto;
   }
   .search-element {
     padding-right: 30px;
@@ -277,8 +278,9 @@ export default {
     flex-wrap: wrap;
     justify-content: center;
     width: 1000px;
-    margin: 30px 0px;
-    margin-left: 30px;
+    padding: 30px 0px;
+    padding-left: 30px;
+    margin: 0px auto;
   }
   .poster-card {
     display: flex;
