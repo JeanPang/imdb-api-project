@@ -92,9 +92,6 @@ export default {
 
             this.releaseYear = moment(data.release_date, 'YYYY-MM-DD').year();
           },
-          (error) => {
-            console.error(error);
-          },
         );
     },
 
@@ -181,9 +178,6 @@ export default {
               featuredCrew.length = 9;
             }
             this.featuredCrews = featuredCrew;
-          },
-          (error) => {
-            console.error(error);
           },
         );
     },

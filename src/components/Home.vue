@@ -291,7 +291,7 @@ export default {
   }
   .poster-card:hover .image-container-horizontal, .poster-card:hover .image-container-vertical{
     background: #fff;
-    opacity: 70%;
+    filter: opacity(70%);
   }
   .poster-card:hover .title-horizontal, .poster-card:hover .title-vertical{
     font-weight: bold;
