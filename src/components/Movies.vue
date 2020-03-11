@@ -212,11 +212,17 @@ export default {
     padding: 0px 0px;
     height: 480px;
     margin-top: 100px;
+    align-items: center;
+  }
+  @media (max-width: 1080px) {
+    .top-container {
+      margin-left: 30px;
+    }
   }
   .poster {
-    max-width: 100%;
     height: 480px;
     box-shadow: 0 0 4px rgba(0,0,0,0.2);
+    width: 320px;
   }
   .no-image-holder-poster {
     height: 480px;
@@ -258,7 +264,7 @@ export default {
     position: absolute;
     right: 20px;
     top: 20px;
-    font-family: 'Odin Bold' !important;
+    font-family: 'Odin Bold';
     background: rgba(256,256,256,0.1);
     border-radius: 100px;
     width: 80px;
